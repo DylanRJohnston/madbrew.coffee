@@ -1,0 +1,13 @@
+.jumbotron
+    +if isReady
+        .list-group
+            +location_summary
+        +coffee_list
+    +else
+        .spinner
+            +spinner
+
++unless currentUser
+    .jumbotron
+        p(class="text-center") To buy coffee, please sign in:
+        +loginButtons

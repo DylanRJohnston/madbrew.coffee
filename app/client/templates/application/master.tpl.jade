@@ -1,0 +1,19 @@
+#main.container-fluid
+    .row
+        .col-xs-12.col-md-6.logo
+            img(src="/madbrew_logo.svg" id="logo" class="image-responsive")
+        .col-xs-12.col-md-6.col-md-offset-6.info-panel
+            .jumbotron
+                h1 Madbrew Coffee
+                p
+                    | Nitrogen-charged cold brew
+                    br
+                    | Served from a tap for four dollary-doos
+                    br
+                    | We'll even wrangle your bitcoins
+            +yield region="info"
+
+
+            //- +coffee_list
+            //- .map-container
+            //-     +googleMap name="locationMap"

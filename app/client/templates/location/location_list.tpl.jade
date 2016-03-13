@@ -1,0 +1,9 @@
+.list-group(class="no-margin")
+    +if isReady
+        +each locations
+            +location_summary
+    +else
+        .spinner
+            +spinner
+//- .map-container(style="width: 100px; width: 100px;")
+//-     +googleMap name="locationMap" options=mapOptions

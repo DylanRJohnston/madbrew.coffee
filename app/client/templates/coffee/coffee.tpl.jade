@@ -1,0 +1,16 @@
+.row.coffee
+    .col-xs-12.col-md-4
+        img(class="circle img-responsive img-rounded coffee-img" src=image alt=name)
+    .col-xs-12.col-md-8
+        h2 #{name}
+        p #{description}
+        h3 <small> #{tasting_notes}</small>
+        
+        +if currentUser
+            +unless processing
+                +if existingUser
+                    a(href="#" data-service=item_id class="btn btn-success btn-raised") Buy Coffee (One Click Purchase)
+                +else
+                    a(href="#" data-service=item_id class="btn btn-success btn-raised") Buy Coffee
+            +else
+                a(href="#" data-service=item_id class="btn btn-disabled btn-raised") Processing
