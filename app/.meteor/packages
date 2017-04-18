@@ -13,7 +13,7 @@ jquery@1.11.10                  # Helpful client-side library
 tracker@1.1.2                 # Meteor's client-side reactive programming library
 
 es5-shim@4.6.15                # ECMAScript 5 compatibility for older browsers.
-ecmascript@0.7.2              # Enable ECMAScript2015+ syntax in app code
+ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 mrgalaxy:stripe
 reactive-var@1.0.11

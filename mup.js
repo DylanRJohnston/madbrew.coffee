@@ -20,6 +20,9 @@ module.exports = {
             port: 443,
             crt: './app/private/fullchain.pem',
             key: './app/private/privkey.pem'
+        },
+        docker: {
+            image: 'abernix/meteord:base'
         }
     },
     mongo: {
