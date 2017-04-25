@@ -6,6 +6,7 @@ module.exports = {
             opts: {
                 port: 2222
             }
+
         }
     },
     meteor: {
