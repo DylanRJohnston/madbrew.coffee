@@ -2,7 +2,7 @@ if Coffees.find().count() == 0
     coffees = [
             name: "Primaveral"
             description: "From the high mountains of the Huila region of Columbia."
-            tasting_notes: "Cola, dark chocolate aroma, white grape and baker's chocolate flavour, sparkling acidity, juicy texture and finish."
+            tasting_notes: "Cola, dark chocolate aroma, white grape and baker's chocolate flavour, sparkling acidity and juicy texture."
             taste:
                 roast: 1
                 body: 1
