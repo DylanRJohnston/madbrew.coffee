@@ -22,7 +22,16 @@ if Locations.find().count() == 0
             image: "/bloom_logo.jpg"
             location:
                 lattitude: -31.975442
-                longitude: 115.816709
+                longitude: 115.816709,
+
+            name: "Spacecubed"
+            description: "Spacecubed is a Social Enterprise, designed to support 20,000 Startups, Entrepreneurs and Corporate Innovators by 2025."
+            address: "45 St Georges Terrace, Perth
+            Perth, Western Australia, WA 6000"
+            image: "/spacecubed.jpg"
+            location:
+                lattitude: -31.955615
+                longitude: 115.859481
     ]
 
     Locations.insert location for location in locations
